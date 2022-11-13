@@ -1,0 +1,51 @@
+@media all and (max-width: 768px) {
+    .header-area {
+        flex-direction: column;
+    }
+
+    .box {
+        flex: 0 0 calc(100% / 2 - 40px);
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        margin-right: 0;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .box {
+        flex: 0 0 calc(100% - 40px);
+    }
+    .menu ul li {
+        padding: 3px 5px;
+    }
+
+    .menu ul li a{
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 450px) {
+
+    .menu ul li:hover .drop-down {
+        display: none;
+    }
+
+    .menu ul {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .menu ul li {
+        margin: 5px 0;
+    }
+}

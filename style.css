@@ -61,7 +61,7 @@ h2 {
 
 .menu ul li {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 50px;
     background-color: var(--white-color);
     margin: 0 10px;
@@ -71,6 +71,7 @@ h2 {
 }
 
 .menu ul li a {
+    font-size: 15px;
     text-decoration: none;
     color: var(--primary-color);
     text-transform: uppercase;
@@ -106,16 +107,15 @@ h2 {
 
 /* drop down */
 .drop-down {
-    display: none;
-    position: absolute;
-    top: 92%;
-    left: 0;
-    background-color: var(--white-color);
-    border-radius: 20px;
-    margin-top: 5px;
-    width: 250px;
-    height: 250px;
-
+	display: none;
+	position: absolute;
+	top: 92%;
+	left: 0;
+	background-color: var(--white-color);
+	border-radius: 20px;
+	margin-top: 5px;
+	width: 250px;
+	height: 187px;
 }
 
 .drop-down ul {
@@ -140,16 +140,16 @@ h2 {
 /* dropDown Level2 */
 
 .subdrop-down {
-    visibility: hidden;
-    position: absolute;
-    top: -20%;
-    left: 105%;
-    transition: .5s;
-    background-color: var(--white-color);
-    border-radius: 10px;
-    margin-top: 5px;
-    width: 200px;
-    height: 120px;
+	visibility: hidden;
+	position: absolute;
+	top: -20%;
+	left: 102%;
+	transition: .5s;
+	background-color: var(--white-color);
+	border-radius: 10px;
+	margin-top: 5px;
+	width: 165px;
+	height: 100px;
 }
 
 .drop-down ul li:hover .subdrop-down {
@@ -158,17 +158,16 @@ h2 {
 
 /* BANNER AREA */
 .banner-area {
-    height: 680px;
     margin: 50px auto;
     border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: var(--box-shadow);
-    margin-bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 60px 0;
 }
 
 .banner-content p {
@@ -242,11 +241,11 @@ h2 {
 }
 
 .box {
-    flex-basis: 30%;
-    margin: 20px;
-    box-shadow: var(--box-shadow);
-    border-radius: 25px;
-    transition: .3s;
+	flex: 0 0 calc(100% / 3 - 40px);
+	margin: 20px;
+	box-shadow: var(--box-shadow);
+	border-radius: 25px;
+	transition: .3s;
 }
 
 .box:hover {
@@ -274,8 +273,8 @@ h2 {
 }
 
 .service-text {
-    max-width: 350px;
-    margin: 0 auto 32px auto;
+	margin: 0 auto 32px auto;
+	padding: 0 20px;
 }
 
 .service-icon {
@@ -309,12 +308,6 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.contact-heading p {
-    max-width: 800px;
-    margin: auto;
-    margin-bottom: 40px;
 }
 
 .contact-info {
@@ -351,7 +344,6 @@ h2 {
 }
 
 .icon-text {
-    max-width: 800px;
     margin: auto;
 }
 
@@ -359,7 +351,6 @@ h2 {
     height: 500px;
     box-shadow: var(--contact-box-shadow);
     border-radius: 25px;
-    width: 40%;
     text-align: center;
     flex-grow: 1;
 }
