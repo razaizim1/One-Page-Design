@@ -171,9 +171,10 @@ h2 {
 }
 
 .banner-content p {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px 0;
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+    word-break: break-all;
 }
 
 .banner-content h1 {
@@ -261,8 +262,9 @@ h2 {
 }
 
 .box p {
-    text-align: justify;
-    word-break: break-all;
+	text-align: justify;
+	word-break: break-all;
+	padding: 0 20px;
 }
 
 .box:hover p,
@@ -339,8 +341,8 @@ h2 {
 }
 
 .text {
-    text-align: left;
-    max-width: 52%;
+	text-align: left;
+	max-width: 30%;
 }
 
 .icon-text {
