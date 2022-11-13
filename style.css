@@ -330,8 +330,14 @@ h2 {
 }
 
 .contact-icon {
-    font-size: 30px;
+    font-size: 36px;
     color: var(--secondary-color);
+    height: 40px;
+    width: 40px;
+    padding: 9px 0 0px 6px;
+    border-radius: 10px;
+    background: whitesmoke;
+    margin: auto;
 }
 
 .icon-box h4 {
@@ -345,8 +351,8 @@ h2 {
 	max-width: 30%;
 }
 
-.icon-text {
-    margin: auto;
+.text p {
+    margin: 0;
 }
 
 .contact-form {
